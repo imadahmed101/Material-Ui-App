@@ -2,9 +2,6 @@ import { useState } from 'react';
 import { Navbar, Sidebar, Feed, Rightbar, Add } from './components';
 import { Box, Stack, createTheme, ThemeProvider } from '@mui/material';
 
-//https://www.youtube.com/watch?v=fzxEECHnsvU
-//@50mins
-
 function App() {
 
     const [mode, setMode] = useState("light");
